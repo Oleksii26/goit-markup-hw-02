@@ -1,5 +1,33 @@
+body {
+  
+}
 .footer-address {
+  list-style: none;
   font-style: normal;
+}
+.list-1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.list-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -14,15 +42,36 @@
   color: #000000;
 }
 .list-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: #212121;
+}
+.link-page-2 {
+  text-decoration: none;
+  color: #212121;
+}
+.link:hover {
+  color: #2196f3;
+}
+.link:focus {
+  color: #2196f3;
+}
+.list-contacts {
   list-style: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-}
-.list-contacts {
-  list-style: none;
+  color: #757575;
 }
 
 .section-hero {
@@ -35,9 +84,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-}
-.btn:focus .btn:hover {
-  background-color: #2196f3;
+  text-align: center;
 }
 .btn {
   font-family: 'Roboto';
@@ -47,6 +94,15 @@
   line-height: 30px;
   color: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
+}
+.btn:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
+.btn:hover {
+  color: #188ce8;
+  color: #ffffff;
 }
 .Benefits-item {
   font-family: 'Roboto';
@@ -82,6 +138,7 @@
 .our-team {
   list-style: none;
 }
+
 .name {
   font-family: 'Roboto';
   font-style: normal;
@@ -89,6 +146,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #212121;
+  text-align: center;
 }
 .position {
   font-family: 'Roboto';
@@ -96,5 +154,47 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  color: #757575;
+  text-align: center;
+}
+.btn-list {
+  list-style: none;
+}
+.btn-page-2 {
+  list-style: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.btn-page-2:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.btn-page-2:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.catalog {
+  list-style: none;
+}
+.catalog h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.catalog p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
   color: #757575;
 }
