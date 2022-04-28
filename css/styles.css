@@ -1,0 +1,100 @@
+.footer-address {
+  font-style: normal;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-studio {
+  color: #000000;
+}
+.list-header {
+  list-style: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.list-contacts {
+  list-style: none;
+}
+
+.section-hero {
+  background-color: #2f303a;
+}
+.hero {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.btn:focus .btn:hover {
+  background-color: #2196f3;
+}
+.btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.Benefits-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.Benefits {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.Benefits-list {
+  list-style: none;
+}
+.heading-two {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+.our-work-list {
+  list-style: none;
+}
+
+.our-team {
+  list-style: none;
+}
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+}
+.position {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
