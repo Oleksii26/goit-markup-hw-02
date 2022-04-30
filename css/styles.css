@@ -58,7 +58,7 @@ body {
 }
 .link {
   text-decoration: none;
-  color: var(--secondary-text-cl);
+  color: inherit;
 }
 .link:hover {
   color: var(--accent-color);
@@ -76,7 +76,9 @@ body {
   color: var(--main-text-cl);
   letter-spacing: 0.02em;
 }
-
+.page {
+  color: var(--accent-color);
+}
 /*section main*/
 
 .section-hero {
